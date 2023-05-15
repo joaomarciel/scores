@@ -1,0 +1,22 @@
+let score = xx
+
+// score more than 90 = A
+if(nota > 90) {
+    console.log('A')
+
+// score between 80 and 89 = B
+} else if (nota >= 80 && nota <= 89) {
+    console.log('B')
+
+// score between 70 and 79 = C
+} else if (nota >= 70 && nota <= 79) {
+    console.log('C')
+
+// score between 60 and 69 = D
+} else if (nota >= 60 && nota <= 69) {
+    console.log('D')
+
+// score less than 60 = F
+} else {
+    console.log('F')
+}
